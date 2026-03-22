@@ -1,29 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Contact() {
-  const [form, setForm] = useState({ name: "", email: "", message: "" });
-
-  const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert(`Message sent by ${form.name}`);
-  };
-
   return (
     <section id="contact">
-       
       <h2>Contact Me</h2>
-      <form onSubmit={handleSubmit}>
-        <input name="name" placeholder="Your Name" onChange={handleChange} /> <br></br>
-        <input name="email" type="email" placeholder="Your Email" onChange={handleChange} /> <br></br>
-        <textarea name="message" placeholder="Your Message" onChange={handleChange}></textarea>
+      <form action="mailto:bezawithaile@example.com" method="POST" encType="text/plain">
+        <input name="name" placeholder="Your Name" required /> <br></br>
+        <input name="email" type="email" placeholder="Your Email" required /> <br></br>
+        <textarea name="message" placeholder="Your Message" required></textarea>
         <button type="submit">Send</button>
       </form>
-     <br></br>
-       <hr></hr>
+      <br></br>
+      <hr></hr>
     </section>
   );
 }
