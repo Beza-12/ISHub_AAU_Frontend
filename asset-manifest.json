@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ISHub_AAU_Frontend/static/css/main.78fdaa07.css",
+    "main.js": "/ISHub_AAU_Frontend/static/js/main.567bcc48.js",
+    "static/js/453.c173b4f9.chunk.js": "/ISHub_AAU_Frontend/static/js/453.c173b4f9.chunk.js",
+    "static/media/pp.png": "/ISHub_AAU_Frontend/static/media/pp.911ed31545bcc8d1dcac.png",
+    "index.html": "/ISHub_AAU_Frontend/index.html",
+    "main.78fdaa07.css.map": "/ISHub_AAU_Frontend/static/css/main.78fdaa07.css.map",
+    "main.567bcc48.js.map": "/ISHub_AAU_Frontend/static/js/main.567bcc48.js.map",
+    "453.c173b4f9.chunk.js.map": "/ISHub_AAU_Frontend/static/js/453.c173b4f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78fdaa07.css",
+    "static/js/main.567bcc48.js"
+  ]
+}
